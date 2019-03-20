@@ -1,7 +1,7 @@
 {
   "name": "npm-lifecycle-hooks",
   "description": "a study of npm lifecycle hooks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "git@github.com:widyakumara/npm-lifecycle-hooks.git",
   "author": "Dewa M. Widyakumara <widyakumara@gmail.com>",
   "license": "MIT",
