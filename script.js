@@ -47,13 +47,13 @@ const log = (name, props) => {
       let out  = [];
       out.push(line);
       if (name) {
-        out.push(`\x1b[32merror\x1b[0m : ${name}`);
+        out.push(`\x1b[32mName\x1b[0m : ${name}`);
       }
       if (props.desc) {
-        out.push(`\x1b[34merror\x1b[0m : ${props.desc}`);
+        out.push(`\x1b[34mDesc\x1b[0m : ${props.desc}`);
       }
       if (props.note) {
-        out.push(`\x1b[33merror\x1b[0m : ${props.note}`);
+        out.push(`\x1b[33mNote\x1b[0m : ${props.note}`);
       }
       out.push(line);
       console.log(out.join('\n'));
