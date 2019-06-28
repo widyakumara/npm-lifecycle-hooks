@@ -6,6 +6,7 @@
   "author": "Dewa M. Widyakumara <widyakumara@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "coba": "node scripts/_coba.js",
     "prepublish": "node ./scripts/prepublish.js",
     "prepare": "node ./scripts/prepare.js",
     "prepublishOnly": "node ./scripts/prepublishOnly.js",
